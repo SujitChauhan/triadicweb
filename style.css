@@ -1,0 +1,430 @@
+html {
+    background-color: #C0B5A6;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1280px;
+    margin: 0 auto 0 auto;
+}
+
+/*.heho {
+    background-image: url(images/home_bg.png);
+    background-repeat: no-repeat;
+}*/
+
+header {
+    height: 75px;
+    width: 1280px;
+    border-bottom: solid;
+    border-color: #79767E;
+    border: 0;
+    background-color: #FAFAFA;
+    position: fixed;
+    z-index: 5;
+}
+
+header img {
+    margin: 5px 0 0 100px;
+}
+
+ul {
+    float: right;
+    margin: 35px 0 0 0;
+
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #D24A4A;
+    font-weight: bolder;
+    font-size: 20;
+    padding: 0 14px 0 14px;
+}
+
+#MenuTab1 {
+    border-bottom:  #D24A4A;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-radius: 10px;
+}
+
+header ul li:last-child {
+    padding: 0 35px 0 0;
+}
+
+.space {
+    width: 1280px;
+    height: 75px;
+}
+
+.home {
+    text-align: center;
+    height: 520px;
+    background-image: url(images/home_bg.png);
+    background-repeat: no-repeat;
+}
+
+.home h1 {
+    margin: 0 0 0 0;
+    padding-top: 123px;
+    font-weight: bolder;
+    color: #171717;
+    font-size: 50px;
+}
+
+.home div {
+    width: 451px;
+    height: 65.37px;
+    background-image: url(images/moto_bg.png);
+    background-repeat: no-repeat;
+    margin-left: 414.5px;
+    margin-top: 133.6px;
+}
+
+.home div p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #781400;
+}
+
+#aboutus{
+    background-color: white;
+    height: 800px;
+}
+
+.aboutL {
+    width: 640px;
+    height: 800px;
+    float: left;
+    background-color: white;
+
+}
+
+#one {
+    color: #FF9900;
+}
+
+#two {
+    color: blue;
+}
+
+#three {
+    color: #00FF00;
+}
+
+.aboutL h3 {
+    font-size: 36px;
+    margin: 74.5px 0 0 141px;
+}
+
+#information {
+    width: 490.5px;
+    height: 370.41px;
+    text-align: justify;
+    margin: 47.5px 0 0 99.3px;
+}
+
+#information p {
+    font-size: 17px;
+}
+
+.aboutR {
+    width: 635px;
+    height: 800px;
+    float: right;
+    background-color: white;
+    text-align: center;
+    border-left: solid;
+    border-width: 5px;
+}
+
+#pp {
+    width: 307.14px;
+    height: 425.41px;
+    background-image: url(images/sujit_char.png);
+    margin: 74.5px 0 0 165px;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px 0 0 0;
+}
+
+#position {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 0 82px;
+}
+
+#services {
+    background-color: #FAFAFA;
+    height: 800px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h3 {
+    font-size: 34px;
+    color: #D24A4A;
+    margin: 0;
+}
+
+.heading p {
+    width: 814px;
+    margin: 10px 0 0 233px;
+    font-size: 18px;
+    color: #464646;
+}
+
+#lefts {
+    width: 640px;
+    float: left;
+    background-color: #FAFAFA;
+}
+
+#rights {
+    width: 640px;
+    float: right;
+    background-color: #FAFAFA;
+}
+
+.boxS {
+    width: 556.06px;
+}
+
+.imageS {
+    width: 52.39px;
+    height: 59.43px;
+    float: left;
+    margin-left:  50px;
+    margin-top: 10.7px;
+}
+
+
+dl {
+    margin: 0;
+    padding-top: 50.4px;
+}
+dd {
+    margin: 0 0 77.4px 122.5px;
+    font-size: 16px;
+    color: #464646;
+    font-weight: normal;
+}
+dt {
+    margin: 0 0 0 122.5px;
+    color: #D24A4A;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#Desc5 {
+    margin-bottom: 52.8px;
+}
+
+#im1s {
+    background-image: url(images/web_icon.png);
+}
+#im2s {
+    background-image: url(images/app_icon.png);
+}
+#im3s {
+    background-image: url(images/uiux_icon.png);
+}
+#im4s {
+    background-image: url(images/e-commerce_icon.png);
+}
+#im5s {
+    background-image: url(images/SEO_icon.png);
+}
+#im6s {
+    background-image: url(images/webhosting_icon.png);
+}
+
+#portfolio {
+    background-color: #D9D0DE;
+    height: 800px;
+}
+
+.headP {
+    text-align: center;
+}
+
+.headP h3 {
+    margin: 0;
+    font-size: 28px;
+    color: #D24A4A;
+}
+
+.headP p{
+    margin-top: 0;
+    margin-left: 246.5px;
+    width: 787px;
+    font-size: 14px;
+    color: #464646;
+}
+
+.imagesP a {
+    margin: 0;
+    padding: 0;
+}
+
+.pi {
+    width: 260px;
+    height: 257px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+
+
+#pi1 {
+    margin-left: 246.3px;
+    background-image: url(images/i1.png);
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute; /* Sit on top of the page content */
+    width: 260px;
+    height: 257px;
+    border: white;
+    border-width: 5px;
+    opacity: 0;
+    transition: .5s ease;
+    /*background-image: url(images/eye.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;*/
+    background: linear-gradient( to bottom right, rgba(210,74,74,0.5), rgba(81,30,30,0.5));
+}
+
+
+#pi1:hover .overlay{
+    opacity: 100;
+}
+
+#pi2 {
+    background-image: url(images/i2.png);
+    background-repeat: no-repeat;
+}
+
+#pi2:hover .overlay{
+    opacity: 1;
+}
+
+#pi3 {
+    background-image: url(images/i3.png);
+    background-repeat: no-repeat;
+}
+
+#pi3:hover .overlay{
+    opacity: 1;
+}
+
+#pi4 {
+    margin-left: 246.3px;
+    background-image: url(images/i4.png);
+    background-repeat: no-repeat;
+}
+
+#pi4:hover .overlay{
+    opacity: 1;
+}
+
+#pi5 {
+    background-image: url(images/i5.png);
+    background-repeat: no-repeat;
+}
+
+#pi5:hover .overlay{
+    opacity: 1;
+}
+
+#pi6 {
+    background-image: url(images/i6.png);
+    background-repeat: no-repeat;
+}
+
+#pi6:hover .overlay{
+    opacity: 1;
+}
+
+
+
+#contactus {
+    background-color: #FAFAFA;
+    height: 800px;
+}
+
+.headC {
+    text-align: center;
+}
+
+.headC h3 {
+    margin: 0;
+    font-size: 36px;
+    color: #D24A4A;
+}
+
+.headC p{
+    margin-top: 0;
+    margin-left: 246.5px;
+    width: 787px;
+    font-size: 18px;
+    color: #464646;
+}
+
+
+.ftext {
+    width: 380px;
+    height: 55px;
+    margin-bottom: 16.2px;
+    display: inline-block;
+    padding-left: 40.8px;
+    border-radius: 26px;
+    border: 0;
+    background-color: #F6F6F6;
+    font-size: 18px;
+}
+
+#MB {
+    width: 793.5px;
+    height: 237.35px;
+    display: inline-block;
+    padding-left: 40.8px;
+    padding-top: 37.1px;
+    border-radius: 26px;
+    border: 0;
+    background-color: #F6F6F6;
+    font-size: 18px;
+    margin: 0 243.3px 16.2px 243.3px;
+}
+
+#FN {
+    margin-left: 243.3px;
+}
+
+#email {
+    margin-left: 243.3px;
+}
+
+#submit {
+    border: 0;
+    width: 149px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: #D24A4A;
+    color: #464646;
+    font-size: 20px;
+    margin: 0 0 0 925px;
+}
